@@ -1,7 +1,7 @@
 // src/hooks/useLtLineData.js
 
 import { useState, useEffect, useCallback, useRef } from 'react';
-import { generateInitialLines, simulateVoltageChange, simulateDisasterEvent } from '../simulation/ltLineSimulator';
+import { generateInitialLines, simulateVoltageChange, simulateDisasterEvent } from '../simulation/LtLineSimulator';
 import { toast } from 'react-toastify';
 
 const NUM_LINES = 8;
